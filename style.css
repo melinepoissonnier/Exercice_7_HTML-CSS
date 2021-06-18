@@ -1,0 +1,49 @@
+#rectangle_1{
+    display:grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: 40% 1fr 1fr 1fr 1fr;
+    grid-template-rows:40px 1fr 1fr 220px  ;
+    grid-template-areas: 
+    "A A A A B"
+    "C D D E E"
+    "C F G G H"
+    "I I I I I";
+}
+#rectangle_2{
+    grid-area: A;
+    background:rgb(28, 199, 85);
+}
+#rectangle_3{
+    grid-area: B;
+    background: blue;
+}
+#rectangle_4{
+    grid-area: C;
+    background:red;
+}
+
+#rectangle_5{
+    grid-area: D;
+    background:rgb(255, 123, 0);
+}
+#rectangle_6{
+    grid-area: E;
+    background:grey;
+}
+#rectangle_7{
+    grid-area: F;
+    background:yellow;
+}
+#rectangle_8{
+    grid-area: G;
+    background:rgb(84, 206, 159);
+}
+#rectangle_9{
+    grid-area: H;
+    background:orange;
+}
+#rectangle_10{
+    grid-area: I;
+    background:black;
+}
